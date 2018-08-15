@@ -1,0 +1,6 @@
+framework module Pods_WJ_Jackson {
+  umbrella header "Pods-WJ Jackson-umbrella.h"
+
+  export *
+  module * { export * }
+}
