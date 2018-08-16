@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_WJ_JacksonVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WJ_JacksonVersionString[];
+FOUNDATION_EXPORT double Pods_CrateLoopsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CrateLoopsVersionString[];
 
