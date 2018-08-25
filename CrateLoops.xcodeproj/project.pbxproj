@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,8 +21,6 @@
 		54B28D55211EC7BD002F52FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D53211EC7BD002F52FC /* Main.storyboard */; };
 		54B28D57211EC7BD002F52FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D56211EC7BD002F52FC /* Assets.xcassets */; };
 		54B28D5A211EC7BD002F52FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D58211EC7BD002F52FC /* LaunchScreen.storyboard */; };
-		54B28D65211EC7BD002F52FC /* WJ_JacksonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B28D64211EC7BD002F52FC /* WJ_JacksonTests.swift */; };
-		54B28D70211EC7BD002F52FC /* WJ_JacksonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B28D6F211EC7BD002F52FC /* WJ_JacksonUITests.swift */; };
 		54C0284F211F593200A0826D /* tblCellGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0284E211F593200A0826D /* tblCellGenre.swift */; };
 		54E763302121B061000EE6F3 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54E7632F2121B05F000EE6F3 /* gif.gif */; };
 		54E763322121B078000EE6F3 /* gifswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E763312121B077000EE6F3 /* gifswift.swift */; };
@@ -36,24 +34,34 @@
 		54EDE9CC2120CC3F009AF1E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54EDE9CB2120CC3F009AF1E0 /* GoogleService-Info.plist */; };
 		54F01C8A212014340098732C /* tblCellArtistAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F01C89212014340098732C /* tblCellArtistAlbum.swift */; };
 		54F01C8C212016BA0098732C /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F01C8B212016BA0098732C /* AlbumVC.swift */; };
+		BE2F36F721311D3500B312E4 /* PlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9BF21206382009AF1E0 /* PlaylistVC.swift */; };
+		BE2F36F821311D3500B312E4 /* tblCellEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9C32120797A009AF1E0 /* tblCellEvent.swift */; };
+		BE2F36F921311D3500B312E4 /* tblCellPlaylistOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9C92120BBF4009AF1E0 /* tblCellPlaylistOption.swift */; };
+		BE2F36FA21311D3500B312E4 /* GenreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54415636211F16B400C392F3 /* GenreVC.swift */; };
+		BE2F36FB21311D3500B312E4 /* GenreSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546567A02120312B00B9ACB2 /* GenreSongVC.swift */; };
+		BE2F36FC21311D3500B312E4 /* MainPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54415630211EDBBB00C392F3 /* MainPlayerVC.swift */; };
+		BE2F36FD21311D3500B312E4 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54415632211F08A600C392F3 /* MenuVC.swift */; };
+		BE2F36FE21311D3500B312E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B28D51211EC7BD002F52FC /* ViewController.swift */; };
+		BE2F36FF21311D3500B312E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B28D4F211EC7BD002F52FC /* AppDelegate.swift */; };
+		BE2F370021311D3500B312E4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546567A22120589B00B9ACB2 /* Global.swift */; };
+		BE2F370121311D3500B312E4 /* tblCellPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9BD21206367009AF1E0 /* tblCellPlaylist.swift */; };
+		BE2F370221311D3500B312E4 /* gifswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E763312121B077000EE6F3 /* gifswift.swift */; };
+		BE2F370321311D3500B312E4 /* tblCellGenreSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546567A421205A2800B9ACB2 /* tblCellGenreSongs.swift */; };
+		BE2F370421311D3500B312E4 /* tblCellArtistAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F01C89212014340098732C /* tblCellArtistAlbum.swift */; };
+		BE2F370521311D3500B312E4 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9C721209D62009AF1E0 /* VideoVC.swift */; };
+		BE2F370621311D3500B312E4 /* VideoPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420F9382121919F00F3CA1A /* VideoPlayVC.swift */; };
+		BE2F370721311D3500B312E4 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9C121207949009AF1E0 /* EventsVC.swift */; };
+		BE2F370821311D3500B312E4 /* tblCellVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDE9C521209D4B009AF1E0 /* tblCellVideo.swift */; };
+		BE2F370921311D3500B312E4 /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F01C8B212016BA0098732C /* AlbumVC.swift */; };
+		BE2F370A21311D3500B312E4 /* tblCellGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0284E211F593200A0826D /* tblCellGenre.swift */; };
+		BE2F370B21311D3500B312E4 /* Player2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54415634211F15C000C392F3 /* Player2VC.swift */; };
+		BE2F370D21311D3500B312E4 /* Pods_CrateLoops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245D124E6676045A6249A065 /* Pods_CrateLoops.framework */; };
+		BE2F370F21311D3500B312E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54EDE9CB2120CC3F009AF1E0 /* GoogleService-Info.plist */; };
+		BE2F371021311D3500B312E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D58211EC7BD002F52FC /* LaunchScreen.storyboard */; };
+		BE2F371121311D3500B312E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D56211EC7BD002F52FC /* Assets.xcassets */; };
+		BE2F371221311D3500B312E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B28D53211EC7BD002F52FC /* Main.storyboard */; };
+		BE2F371321311D3500B312E4 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54E7632F2121B05F000EE6F3 /* gif.gif */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		54B28D61211EC7BD002F52FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54B28D44211EC7BD002F52FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54B28D4B211EC7BD002F52FC;
-			remoteInfo = "WJ Jackson";
-		};
-		54B28D6C211EC7BD002F52FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54B28D44211EC7BD002F52FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54B28D4B211EC7BD002F52FC;
-			remoteInfo = "WJ Jackson";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BAC2023F8B62E31F97427D9 /* Pods-CrateLoops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrateLoops.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrateLoops/Pods-CrateLoops.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +82,8 @@
 		54B28D56211EC7BD002F52FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54B28D59211EC7BD002F52FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54B28D5B211EC7BD002F52FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54B28D60211EC7BD002F52FC /* CrateLoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrateLoopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B28D64211EC7BD002F52FC /* WJ_JacksonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJ_JacksonTests.swift; sourceTree = "<group>"; };
 		54B28D66211EC7BD002F52FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54B28D6B211EC7BD002F52FC /* CrateLoopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrateLoopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B28D6F211EC7BD002F52FC /* WJ_JacksonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJ_JacksonUITests.swift; sourceTree = "<group>"; };
 		54B28D71211EC7BD002F52FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C0284E211F593200A0826D /* tblCellGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblCellGenre.swift; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 		54EDE9CB2120CC3F009AF1E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54F01C89212014340098732C /* tblCellArtistAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblCellArtistAlbum.swift; sourceTree = "<group>"; };
 		54F01C8B212016BA0098732C /* AlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC.swift; sourceTree = "<group>"; };
+		BE2F371821311D3500B312E4 /* CrateLoops Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrateLoops Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2F371921311D3500B312E4 /* CrateLoops copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CrateLoops copy-Info.plist"; path = "/Users/will/Documents/GitHub/WJ_Jackson_Apple/CrateLoops copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +112,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54B28D5D211EC7BD002F52FC /* Frameworks */ = {
+		BE2F370C21311D3500B312E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54B28D68211EC7BD002F52FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BE2F370D21311D3500B312E4 /* Pods_CrateLoops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +132,7 @@
 				54B28D4D211EC7BD002F52FC /* Products */,
 				95EC70D531A99F55D830F3B6 /* Pods */,
 				C8F8E92162551A0A3754D533 /* Frameworks */,
+				BE2F371921311D3500B312E4 /* CrateLoops copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,8 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				54B28D4C211EC7BD002F52FC /* CrateLoops.app */,
-				54B28D60211EC7BD002F52FC /* CrateLoopsTests.xctest */,
-				54B28D6B211EC7BD002F52FC /* CrateLoopsUITests.xctest */,
+				BE2F371821311D3500B312E4 /* CrateLoops Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,41 +236,24 @@
 			productReference = 54B28D4C211EC7BD002F52FC /* CrateLoops.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54B28D5F211EC7BD002F52FC /* CrateLoopsTests */ = {
+		BE2F36F421311D3500B312E4 /* CrateLoops Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54B28D77211EC7BD002F52FC /* Build configuration list for PBXNativeTarget "CrateLoopsTests" */;
+			buildConfigurationList = BE2F371521311D3500B312E4 /* Build configuration list for PBXNativeTarget "CrateLoops Tests" */;
 			buildPhases = (
-				54B28D5C211EC7BD002F52FC /* Sources */,
-				54B28D5D211EC7BD002F52FC /* Frameworks */,
-				54B28D5E211EC7BD002F52FC /* Resources */,
+				BE2F36F521311D3500B312E4 /* [CP] Check Pods Manifest.lock */,
+				BE2F36F621311D3500B312E4 /* Sources */,
+				BE2F370C21311D3500B312E4 /* Frameworks */,
+				BE2F370E21311D3500B312E4 /* Resources */,
+				BE2F371421311D3500B312E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54B28D62211EC7BD002F52FC /* PBXTargetDependency */,
 			);
-			name = CrateLoopsTests;
-			productName = "WJ JacksonTests";
-			productReference = 54B28D60211EC7BD002F52FC /* CrateLoopsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		54B28D6A211EC7BD002F52FC /* CrateLoopsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54B28D7A211EC7BD002F52FC /* Build configuration list for PBXNativeTarget "CrateLoopsUITests" */;
-			buildPhases = (
-				54B28D67211EC7BD002F52FC /* Sources */,
-				54B28D68211EC7BD002F52FC /* Frameworks */,
-				54B28D69211EC7BD002F52FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54B28D6D211EC7BD002F52FC /* PBXTargetDependency */,
-			);
-			name = CrateLoopsUITests;
-			productName = "WJ JacksonUITests";
-			productReference = 54B28D6B211EC7BD002F52FC /* CrateLoopsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "CrateLoops Tests";
+			productName = "WJ Jackson";
+			productReference = BE2F371821311D3500B312E4 /* CrateLoops Tests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -278,26 +263,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Ashutosh Jani";
+				ORGANIZATIONNAME = "Will Jackson";
 				TargetAttributes = {
 					54B28D4B211EC7BD002F52FC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					54B28D5F211EC7BD002F52FC = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 54B28D4B211EC7BD002F52FC;
-					};
-					54B28D6A211EC7BD002F52FC = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 54B28D4B211EC7BD002F52FC;
-					};
 				};
 			};
 			buildConfigurationList = 54B28D47211EC7BD002F52FC /* Build configuration list for PBXProject "CrateLoops" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -310,8 +285,7 @@
 			projectRoot = "";
 			targets = (
 				54B28D4B211EC7BD002F52FC /* CrateLoops */,
-				54B28D5F211EC7BD002F52FC /* CrateLoopsTests */,
-				54B28D6A211EC7BD002F52FC /* CrateLoopsUITests */,
+				BE2F36F421311D3500B312E4 /* CrateLoops Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,17 +303,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54B28D5E211EC7BD002F52FC /* Resources */ = {
+		BE2F370E21311D3500B312E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54B28D69211EC7BD002F52FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BE2F370F21311D3500B312E4 /* GoogleService-Info.plist in Resources */,
+				BE2F371021311D3500B312E4 /* LaunchScreen.storyboard in Resources */,
+				BE2F371121311D3500B312E4 /* Assets.xcassets in Resources */,
+				BE2F371221311D3500B312E4 /* Main.storyboard in Resources */,
+				BE2F371321311D3500B312E4 /* gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +364,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BE2F36F521311D3500B312E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrateLoops-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE2F371421311D3500B312E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrateLoops/Pods-CrateLoops-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrateLoops/Pods-CrateLoops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -423,36 +441,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54B28D5C211EC7BD002F52FC /* Sources */ = {
+		BE2F36F621311D3500B312E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B28D65211EC7BD002F52FC /* WJ_JacksonTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54B28D67211EC7BD002F52FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54B28D70211EC7BD002F52FC /* WJ_JacksonUITests.swift in Sources */,
+				BE2F36F721311D3500B312E4 /* PlaylistVC.swift in Sources */,
+				BE2F36F821311D3500B312E4 /* tblCellEvent.swift in Sources */,
+				BE2F36F921311D3500B312E4 /* tblCellPlaylistOption.swift in Sources */,
+				BE2F36FA21311D3500B312E4 /* GenreVC.swift in Sources */,
+				BE2F36FB21311D3500B312E4 /* GenreSongVC.swift in Sources */,
+				BE2F36FC21311D3500B312E4 /* MainPlayerVC.swift in Sources */,
+				BE2F36FD21311D3500B312E4 /* MenuVC.swift in Sources */,
+				BE2F36FE21311D3500B312E4 /* ViewController.swift in Sources */,
+				BE2F36FF21311D3500B312E4 /* AppDelegate.swift in Sources */,
+				BE2F370021311D3500B312E4 /* Global.swift in Sources */,
+				BE2F370121311D3500B312E4 /* tblCellPlaylist.swift in Sources */,
+				BE2F370221311D3500B312E4 /* gifswift.swift in Sources */,
+				BE2F370321311D3500B312E4 /* tblCellGenreSongs.swift in Sources */,
+				BE2F370421311D3500B312E4 /* tblCellArtistAlbum.swift in Sources */,
+				BE2F370521311D3500B312E4 /* VideoVC.swift in Sources */,
+				BE2F370621311D3500B312E4 /* VideoPlayVC.swift in Sources */,
+				BE2F370721311D3500B312E4 /* EventsVC.swift in Sources */,
+				BE2F370821311D3500B312E4 /* tblCellVideo.swift in Sources */,
+				BE2F370921311D3500B312E4 /* AlbumVC.swift in Sources */,
+				BE2F370A21311D3500B312E4 /* tblCellGenre.swift in Sources */,
+				BE2F370B21311D3500B312E4 /* Player2VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		54B28D62211EC7BD002F52FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54B28D4B211EC7BD002F52FC /* CrateLoops */;
-			targetProxy = 54B28D61211EC7BD002F52FC /* PBXContainerItemProxy */;
-		};
-		54B28D6D211EC7BD002F52FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54B28D4B211EC7BD002F52FC /* CrateLoops */;
-			targetProxy = 54B28D6C211EC7BD002F52FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		54B28D53211EC7BD002F52FC /* Main.storyboard */ = {
@@ -580,7 +597,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -591,10 +609,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A3975W4353;
 				INFOPLIST_FILE = "WJ Jackson/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JacksonTech;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jackson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,75 +628,54 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A3975W4353;
 				INFOPLIST_FILE = "WJ Jackson/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JacksonTech;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jackson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		54B28D78211EC7BD002F52FC /* Debug */ = {
+		BE2F371621311D3500B312E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2527BFB543B95EC93803FA7E /* Pods-CrateLoops.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WJ JacksonTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Qrioustech.WJ-JacksonTests";
+				DEVELOPMENT_TEAM = A3975W4353;
+				INFOPLIST_FILE = "CrateLoops copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jackson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrateLoops.app/CrateLoops";
 			};
 			name = Debug;
 		};
-		54B28D79211EC7BD002F52FC /* Release */ = {
+		BE2F371721311D3500B312E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAC2023F8B62E31F97427D9 /* Pods-CrateLoops.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WJ JacksonTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Qrioustech.WJ-JacksonTests";
+				DEVELOPMENT_TEAM = A3975W4353;
+				INFOPLIST_FILE = "CrateLoops copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jackson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrateLoops.app/CrateLoops";
-			};
-			name = Release;
-		};
-		54B28D7B211EC7BD002F52FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WJ JacksonUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Qrioustech.WJ-JacksonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WJ Jackson";
-			};
-			name = Debug;
-		};
-		54B28D7C211EC7BD002F52FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WJ JacksonUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Qrioustech.WJ-JacksonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WJ Jackson";
 			};
 			name = Release;
 		};
@@ -700,20 +700,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54B28D77211EC7BD002F52FC /* Build configuration list for PBXNativeTarget "CrateLoopsTests" */ = {
+		BE2F371521311D3500B312E4 /* Build configuration list for PBXNativeTarget "CrateLoops Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54B28D78211EC7BD002F52FC /* Debug */,
-				54B28D79211EC7BD002F52FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54B28D7A211EC7BD002F52FC /* Build configuration list for PBXNativeTarget "CrateLoopsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54B28D7B211EC7BD002F52FC /* Debug */,
-				54B28D7C211EC7BD002F52FC /* Release */,
+				BE2F371621311D3500B312E4 /* Debug */,
+				BE2F371721311D3500B312E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

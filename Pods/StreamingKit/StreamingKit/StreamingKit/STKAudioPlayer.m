@@ -283,7 +283,7 @@ static AudioStreamBasicDescription recordAudioStreamBasicDescription;
     UInt32 recordPacketSize;
     AudioStreamPacketDescription *recordPacketDescriptions;
     
-	void(^stopBackBackgroundTaskBlock)();
+	void(^stopBackBackgroundTaskBlock)(void);
     
     int32_t seekVersion;
     OSSpinLock seekLock;
@@ -1030,7 +1030,7 @@ static void AudioFileStreamPacketsProc(void* clientData, UInt32 numberBytes, UIn
     return retval;
 }
 
--(BOOL) invokeOnPlaybackThread:(void(^)())block
+-(BOOL) invokeOnPlaybackThread:(void(^)(void))block
 {
 	NSRunLoop* runLoop = playbackThreadRunLoop;
 	
